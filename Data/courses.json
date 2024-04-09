@@ -5,7 +5,7 @@
       "is_todays_pick": false,
       "is_trending": true
     },
-    "category_id": "01",
+    "category_id": "1",
     "rating": {
       "number": "4.5",
       "badge": "Excellent"
@@ -28,7 +28,7 @@
       "is_todays_pick": true,
       "is_trending": false
     },
-    "category_id": "02",
+    "category_id": "2",
     "rating": {
       "number": "4.0",
       "badge": "Good"
@@ -50,7 +50,7 @@
       "is_todays_pick": false,
       "is_trending": true
     },
-    "category_id": "03",
+    "category_id": "3",
     "rating": {
       "number": "3.5",
       "badge": "Fair"
@@ -72,7 +72,7 @@
       "is_todays_pick": true,
       "is_trending": true
     },
-    "category_id": "04",
+    "category_id": "1",
     "rating": {
       "number": "5.0",
       "badge": "Outstanding"
@@ -94,7 +94,7 @@
       "is_todays_pick": false,
       "is_trending": true
     },
-    "category_id": "05",
+    "category_id": "2",
     "rating": {
       "number": "4.8",
       "badge": "Excellent"
@@ -116,7 +116,7 @@
       "is_todays_pick": true,
       "is_trending": false
     },
-    "category_id": "06",
+    "category_id": "3",
     "rating": {
       "number": "3.2",
       "badge": "Fair"
@@ -138,7 +138,7 @@
       "is_todays_pick": false,
       "is_trending": false
     },
-    "category_id": "07",
+    "category_id": "1",
     "rating": {
       "number": "4.2",
       "badge": "Very Good"
@@ -160,7 +160,7 @@
       "is_todays_pick": true,
       "is_trending": true
     },
-    "category_id": "08",
+    "category_id": "2",
     "rating": {
       "number": "4.7",
       "badge": "Excellent"
@@ -182,7 +182,7 @@
       "is_todays_pick": false,
       "is_trending": true
     },
-    "category_id": "09",
+    "category_id": "3",
     "rating": {
       "number": "4.3",
       "badge": "Very Good"
@@ -204,7 +204,7 @@
       "is_todays_pick": true,
       "is_trending": false
     },
-    "category_id": "10",
+    "category_id": "1",
     "rating": {
       "number": "4.6",
       "badge": "Excellent"
