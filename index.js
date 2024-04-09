@@ -3,7 +3,7 @@ const app = express();
 //const cors = require('cors');
 app.use(express.json());
 
-const course = require('../CoursePlanetServer/Data/courses.json');
+//const course = require('../CoursePlanetServer/Data/courses.json');
 
 //app.use(cors());
 
