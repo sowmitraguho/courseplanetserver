@@ -12,7 +12,7 @@ app.use(express.json());
 // });
 
 app.get("/", (req, res) => {
-    res.status(200).send("Hello from the server!");
+    res.send("Hello from the server!");
 });
 
 // app.get('/course', (req, res) => {
