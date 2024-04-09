@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-const cors = require('cors');
+//const cors = require('cors');
 app.use(express.json());
 
 const course = require('../CoursePlanetServer/Data/courses.json');
@@ -15,15 +15,15 @@ app.get("/", (req, res) => {
     res.status(200).send("Hello from the server!");
 });
 
-app.get('/course', (req, res) => {
-    res.send(course);
-  } );
+// app.get('/course', (req, res) => {
+//     res.send(course);
+//   } );
   
-app.get('/course/:id', (req, res) => {
-    const id = req.params.id;
-    const selectedCourse = course.find(n => n._id === id);
-    res.send(selectedCourse);
-});
+// app.get('/course/:id', (req, res) => {
+//     const id = req.params.id;
+//     const selectedCourse = course.find(n => n._id === id);
+//     res.send(selectedCourse);
+// });
 
 
 
