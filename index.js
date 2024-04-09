@@ -5,7 +5,7 @@ app.use(express.json());
 
 const course = require('../CoursePlanetServer/Data/courses.json');
 
-app.use(cors());
+//app.use(cors());
 
 // app.get('/', (req, res) => {
 //   res.send('Course Portal Running...');
@@ -19,11 +19,11 @@ app.get('/course', (req, res) => {
     res.send(course);
   } );
   
-  app.get('/course/:id', (req, res) => {
+app.get('/course/:id', (req, res) => {
     const id = req.params.id;
     const selectedCourse = course.find(n => n._id === id);
     res.send(selectedCourse);
-  });
+});
 
 
 
